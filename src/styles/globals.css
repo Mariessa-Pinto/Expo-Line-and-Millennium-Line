@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+.header {
+  height: 10vh;
+  background-color: rgba(50, 107, 168, 0.537);
+  box-shadow:
+    inset 0 -1em 3em rgb(0 0 0 / 30%),
+    0 0 0 2px white;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+  padding-left: 1rem;
+}
+
+.text {
+  font-size: 24px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding-left: 0.75rem;
+  color: #4f4209;
+  font-weight: 700;
+}
